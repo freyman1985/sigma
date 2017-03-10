@@ -1,0 +1,208 @@
+body {
+	font-family:'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 15px !important;
+}
+
+.container-fluid{
+	min-height: 100px;
+    padding-top: 30px;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+/*******cabecera fija al hacer scroll*********/
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+
+
+.navbar-nav>.texto-menu>a {
+    color: #f54828 !important;margin: 1px;
+}
+
+.navbar-nav>.active>a, .navbar-nav>.texto-menu>a:hover {
+   color: #fff !important;background-color: #f39c12 !important;margin: 3px;
+}
+
+#myCarousel{
+	border-bottom: 6px solid #9f3e29;
+}
+
+.carousel-caption> h2{
+	text-shadow: 0px 2px 3px #000;
+}
+/*****fin de cabecera fija**********/
+
+#services{
+	background: url(../imagenes/fondo.png); padding: 50px;
+}
+
+.text-center{
+	margin-bottom: 40px;
+}
+
+.botton-mas{
+	background: #ef9c2c;
+    cursor: pointer;
+    top: -10px;
+}
+
+.botton-mas>h2{
+	margin: 0px !important;color: #fff;
+}
+
+.marco{
+	border: 1px solid;
+    width: 255px;
+    padding: 10px;
+}
+
+.fondo-gris{	
+	background: #ddd;padding: 20px;
+}
+/****************burbujas, nuestros valores*****************/
+
+.infograph-container {
+    
+    background: url('http://www.sigmasa.cl/files/background/geomensor.png');
+}
+
+.space-y {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bubble {
+    width: 80%;
+    max-width: 600px;
+    height: 520px;
+    position: relative;
+    margin: auto;
+}
+
+.bubble ul li {
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 100%;
+    text-align: center;
+    list-style:none;
+    text-shadow: 0px 2px 3px #000;
+}
+.bubble ul li span {
+    position: relative;
+    display: block;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.bubble .bubble-center {
+    width: 210px;
+    height: 210px;
+    left: 50%;
+    top: 41%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #fff;
+}
+.bubble ul .vida {
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    left: -5px;
+    background-color: #f4d65f;
+}
+
+.bubble ul .coraje {
+    width: 160px;
+    height: 160px;
+    top: 55px;
+    right: 56px;
+    background-color:#f7d500;
+}
+
+.bubble ul .integridad {
+    width: 120px;
+    height: 120px;
+    top: 48px;
+    left: 100px;
+    background-color: #ffe82a;
+}
+
+.bubble ul .confianza {
+    width: 120px;
+    height: 120px;
+    top: 0;
+    left: 207px;
+    background-color: #a9562d;
+}
+
+.bubble ul .compromiso {
+    width: 150px;
+    height: 150px;
+    top: 210px;
+    right: 56px;
+    background-color: #f4d65f;
+}
+
+.bubble ul .equipo {
+    width: 190px;
+    height: 190px;
+    bottom: 0px;
+    right: 137px;
+    background-color: #a9562d;
+    top: 317px;
+}
+
+.bubble ul .excelencia {
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    left: 132px;
+    background-color:#ef9c2c;
+    top: 300px;
+}
+
+.bubble .bubble-center span {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    color: #F26F70;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+/*********fin burbujas***********/
+
+/*******responsive*********/
+@media (max-width: 900px){
+	#myCarousel{
+		top:100px;margin-bottom: 100px;
+	}
+	.carousel-caption> h2{
+		font-size: 2em !important; 
+	}
+}
